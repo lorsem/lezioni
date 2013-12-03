@@ -28,8 +28,8 @@ terminato dal carattere speciale `'\0'`, dovremmo poter definire
 
     int main()
     {
-        char msg[]={'c','i','a','o',
-        'a',' ','t','u','t','t','i','\0';
+        char msg[]={'c','i','a','o',' ',
+        'a',' ','t','u','t','t','i','\0'};
         
         printf(msg);
     }
